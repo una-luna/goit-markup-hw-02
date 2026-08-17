@@ -293,4 +293,68 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+.page-header,
+.advantages,
+.team,
+.portfolio,
+.page-footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header,
+.advantages-list,
+.team-list,
+.portfolio-list,
+.page-footer {
+  max-width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.team-item {
+  width: 264px;
+  flex-shrink: 0;
+}
+
+.team-item img {
+  width: 264px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.portfolio-item {
+  width: 360px;
+}
+
+.portfolio-item img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
 }
